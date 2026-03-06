@@ -1,0 +1,110 @@
+2026-03-03 08:53:55 | INFO | chatbot | Loading ML model...
+2026-03-03 08:54:02 | INFO | chatbot | Model and vectorizer loaded successfully
+2026-03-03 08:54:03 | INFO | chatbot | MongoDB setup completed
+2026-03-03 08:54:06 | INFO | chatbot | MongoDB Connected Successfully!
+2026-03-03 08:54:12 | INFO | chatbot | Loading ML model...
+2026-03-03 08:54:17 | INFO | chatbot | Model and vectorizer loaded successfully
+2026-03-03 08:54:19 | INFO | chatbot | MongoDB setup completed
+2026-03-03 08:54:21 | INFO | chatbot | MongoDB Connected Successfully!
+2026-03-03 08:54:21 | INFO | chatbot | Home page accessed
+2026-03-03 08:54:28 | INFO | chatbot | Message received: hiii
+2026-03-03 08:54:28 | INFO | chatbot | Incoming message: hiii
+2026-03-03 08:54:28 | INFO | chatbot | Predicting intent for: hiii
+2026-03-03 08:54:28 | INFO | chatbot | Predicted tag: greeting, Confidence: 0.7833361308290262
+2026-03-03 08:54:28 | INFO | chatbot | Fetching response for tag: greeting
+2026-03-03 08:54:28 | INFO | chatbot | Response selected: Hi there! How can I assist you today?
+2026-03-03 08:54:28 | INFO | chatbot | Reply generated: Hi there! How can I assist you today?
+2026-03-03 08:54:32 | INFO | chatbot | Message received: order
+2026-03-03 08:54:32 | INFO | chatbot | Incoming message: order
+2026-03-03 08:54:32 | INFO | chatbot | Order keyword detected
+2026-03-03 08:54:32 | INFO | chatbot | Reply generated: Please provide your order ID.
+2026-03-03 08:54:40 | INFO | chatbot | Message received: 9876543210
+2026-03-03 08:54:40 | INFO | chatbot | Incoming message: 9876543210
+2026-03-03 08:54:40 | INFO | chatbot | Order ID detected, checking database
+2026-03-03 08:54:40 | INFO | chatbot | Searching for order ID: 9876543210
+2026-03-03 08:54:40 | INFO | chatbot | Database result: {'_id': ObjectId('69a4fe9695dd08cbdc18f07d'), 'order_id': '9876543210', 'customer_name': 'Amit', 'status': 'Delivered'}
+2026-03-03 08:54:40 | INFO | chatbot | Order found response: Order 9876543210 is Delivered for Amit.
+2026-03-03 08:54:40 | INFO | chatbot | Reply generated: Order 9876543210 is Delivered for Amit.
+2026-03-03 09:19:14 | INFO | chatbot | Message received: hii
+2026-03-03 09:19:14 | INFO | chatbot | Incoming message: hii
+2026-03-03 09:19:14 | INFO | chatbot | Predicting intent for: hii
+2026-03-03 09:19:15 | INFO | chatbot | Predicted tag: greeting, Confidence: 0.7833361308290262
+2026-03-03 09:19:15 | INFO | chatbot | Fetching response for tag: greeting
+2026-03-03 09:19:15 | INFO | chatbot | Response selected: Hi there! How can I assist you today?
+2026-03-03 09:19:15 | INFO | chatbot | Reply generated: Hi there! How can I assist you today?
+2026-03-03 09:19:56 | INFO | chatbot | Message received: how are you ?
+2026-03-03 09:19:56 | INFO | chatbot | Incoming message: how are you ?
+2026-03-03 09:19:56 | INFO | chatbot | Predicting intent for: how are you ?
+2026-03-03 09:19:56 | INFO | chatbot | Predicted tag: greeting, Confidence: 0.8104945803220965
+2026-03-03 09:19:56 | INFO | chatbot | Fetching response for tag: greeting
+2026-03-03 09:19:56 | INFO | chatbot | Response selected: Hi there! How can I assist you today?
+2026-03-03 09:19:56 | INFO | chatbot | Reply generated: Hi there! How can I assist you today?
+2026-03-03 09:20:08 | INFO | chatbot | Message received: where is my order ?
+2026-03-03 09:20:08 | INFO | chatbot | Incoming message: where is my order ?
+2026-03-03 09:20:08 | INFO | chatbot | Order keyword detected
+2026-03-03 09:20:08 | INFO | chatbot | Reply generated: Please provide your order ID.
+2026-03-03 09:20:17 | INFO | chatbot | Message received: 345632
+2026-03-03 09:20:17 | INFO | chatbot | Incoming message: 345632
+2026-03-03 09:20:17 | INFO | chatbot | Predicting intent for: 345632
+2026-03-03 09:20:17 | INFO | chatbot | Predicted tag: goodbye, Confidence: 0.31535063876115543
+2026-03-03 09:20:17 | WARNING | chatbot | Low confidence: 0.31535063876115543
+2026-03-03 09:20:17 | INFO | chatbot | Reply generated: Sorry, I didn't understand that clearly. Can you rephrase?
+2026-03-03 09:20:34 | INFO | chatbot | Message received: number
+2026-03-03 09:20:34 | INFO | chatbot | Incoming message: number
+2026-03-03 09:20:34 | INFO | chatbot | Predicting intent for: number
+2026-03-03 09:20:34 | INFO | chatbot | Predicted tag: contact_number, Confidence: 0.8259735914696272
+2026-03-03 09:20:34 | INFO | chatbot | Fetching response for tag: contact_number
+2026-03-03 09:20:34 | INFO | chatbot | Response selected: You can reach our support team at +91-XXXXXXXXXX. We're happy to help!
+2026-03-03 09:20:34 | INFO | chatbot | Reply generated: You can reach our support team at +91-XXXXXXXXXX. We're happy to help!
+2026-03-03 09:20:42 | INFO | chatbot | Message received: ok
+2026-03-03 09:20:42 | INFO | chatbot | Incoming message: ok
+2026-03-03 09:20:42 | INFO | chatbot | Predicting intent for: ok
+2026-03-03 09:20:42 | INFO | chatbot | Predicted tag: goodbye, Confidence: 0.5447206614010348
+2026-03-03 09:20:42 | INFO | chatbot | Fetching response for tag: goodbye
+2026-03-03 09:20:42 | INFO | chatbot | Response selected: Goodbye! Have a wonderful day!
+2026-03-03 09:20:42 | INFO | chatbot | Reply generated: Goodbye! Have a wonderful day!
+2026-03-03 09:22:22 | INFO | chatbot | Loading ML model...
+2026-03-03 09:22:31 | INFO | chatbot | Model and vectorizer loaded successfully
+2026-03-03 09:22:33 | INFO | chatbot | MongoDB setup completed
+2026-03-03 09:22:36 | INFO | chatbot | MongoDB Connected Successfully!
+2026-03-03 09:23:45 | INFO | chatbot | Loading ML model...
+2026-03-03 09:23:51 | INFO | chatbot | Model and vectorizer loaded successfully
+2026-03-03 09:23:53 | INFO | chatbot | MongoDB setup completed
+2026-03-03 09:23:55 | INFO | chatbot | MongoDB Connected Successfully!
+2026-03-03 09:32:51 | INFO | chatbot | Loading ML model...
+2026-03-03 09:32:57 | INFO | chatbot | Model and vectorizer loaded successfully
+2026-03-03 09:32:59 | INFO | chatbot | MongoDB setup completed
+2026-03-03 09:33:05 | INFO | chatbot | MongoDB Connected Successfully!
+2026-03-03 09:33:10 | INFO | chatbot | Loading ML model...
+2026-03-03 09:33:14 | INFO | chatbot | Model and vectorizer loaded successfully
+2026-03-03 09:33:16 | INFO | chatbot | MongoDB setup completed
+2026-03-03 09:33:18 | INFO | chatbot | MongoDB Connected Successfully!
+2026-03-03 09:33:21 | INFO | chatbot | Loading ML model...
+2026-03-03 09:33:26 | INFO | chatbot | Model and vectorizer loaded successfully
+2026-03-03 09:33:27 | INFO | chatbot | MongoDB setup completed
+2026-03-03 09:33:32 | INFO | chatbot | MongoDB Connected Successfully!
+2026-03-03 09:33:34 | INFO | chatbot | Loading ML model...
+2026-03-03 09:33:39 | INFO | chatbot | Model and vectorizer loaded successfully
+2026-03-03 09:33:41 | INFO | chatbot | MongoDB setup completed
+2026-03-03 09:33:48 | INFO | chatbot | MongoDB Connected Successfully!
+2026-03-03 09:33:51 | INFO | chatbot | Loading ML model...
+2026-03-03 09:33:56 | INFO | chatbot | Model and vectorizer loaded successfully
+2026-03-03 09:33:57 | INFO | chatbot | MongoDB setup completed
+2026-03-03 09:34:19 | ERROR | chatbot | MongoDB Connection Failed: The resolution lifetime expired after 21.167 seconds: Server Do53:10.148.36.86@53 answered The DNS operation timed out.; Server Do53:10.148.36.86@53 answered The DNS operation timed out.; Server Do53:10.148.36.86@53 answered The DNS operation timed out.; Server Do53:10.148.36.86@53 answered The DNS operation timed out.; Server Do53:10.148.36.86@53 answered The DNS operation timed out.; Server Do53:10.148.36.86@53 answered The DNS operation timed out.; Server Do53:10.148.36.86@53 answered The DNS operation timed out.
+2026-03-03 09:35:40 | INFO | chatbot | Loading ML model...
+2026-03-03 09:35:45 | INFO | chatbot | Model and vectorizer loaded successfully
+2026-03-03 09:35:46 | INFO | chatbot | MongoDB setup completed
+2026-03-03 09:35:56 | INFO | chatbot | MongoDB Connected Successfully!
+2026-03-03 09:35:59 | INFO | chatbot | Loading ML model...
+2026-03-03 09:36:04 | INFO | chatbot | Model and vectorizer loaded successfully
+2026-03-03 09:36:06 | INFO | chatbot | MongoDB setup completed
+2026-03-03 09:36:09 | INFO | chatbot | MongoDB Connected Successfully!
+2026-03-03 09:36:13 | INFO | chatbot | Loading ML model...
+2026-03-03 09:36:18 | INFO | chatbot | Model and vectorizer loaded successfully
+2026-03-03 09:36:20 | INFO | chatbot | MongoDB setup completed
+2026-03-03 09:36:29 | INFO | chatbot | MongoDB Connected Successfully!
+2026-03-03 10:49:55 | INFO | chatbot | Home page accessed
+2026-03-03 10:52:11 | INFO | chatbot | Loading ML model...
+2026-03-03 10:52:15 | INFO | chatbot | Model and vectorizer loaded successfully
+2026-03-03 10:52:17 | INFO | chatbot | MongoDB setup completed
+2026-03-03 10:52:20 | INFO | chatbot | MongoDB Connected Successfully!

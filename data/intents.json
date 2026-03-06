@@ -1,0 +1,98 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "hello", "hi", "hii", "hiii", "hey", "good morning",
+        "good evening", "how are you", "is anyone there",
+        "hi there", "hey buddy", "what's up", "good afternoon",
+        "greetings", "howdy", "sup", "yo", "hello there",
+        "hey there", "good day", "how are you doing",
+        "what is up", "anyone here", "hello buddy"
+      ],
+      "responses": ["Hi there! How can I assist you today?"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "bye", "goodbye", "see you", "talk to you later",
+        "catch you later", "see you soon", "take care",
+        "have a good day", "i am leaving", "gotta go",
+        "talk later", "until next time", "later", "i am done",
+        "thanks bye", "ok bye", "good night", "see ya",
+        "cya", "farewell", "ttyl", "i am going now",
+        "going offline", "that will be all", "done for now",
+        "signing off", "i am out"
+      ],
+      "responses": ["Goodbye! Have a wonderful day!"]
+    },
+    {
+      "tag": "order_status",
+      "patterns": [
+        "where is my order", "track my order", "order status",
+        "has my order shipped", "check my order", "order tracking",
+        "can you check my order", "i want to track my order",
+        "where is my package", "track my package", "my order is late",
+        "when will my order arrive", "order not received",
+        "i havent received my order", "order delivery status",
+        "check delivery status", "where is my delivery",
+        "what is my order status", "is my order shipped",
+        "my package is missing", "delivery not arrived",
+        "check my shipment", "shipment status",
+        "where is my shipment", "order update please"
+      ],
+      "responses": ["Sure! Please share your order ID so I can check the status for you."]
+    },
+    {
+      "tag": "provide_order_id",
+      "patterns": [
+        "my order id is 12345", "order id 45678",
+        "here is my order number", "this is my order id",
+        "check order 56789", "my order number is 98765",
+        "order number 34567", "my id is 11111",
+        "order 22222", "id is 33333", "check 44444",
+        "my order is 55555", "tracking number 66666",
+        "here is my id", "my tracking id is 77777",
+        "order ref 88888", "reference number 99999",
+        "my reference is 10101", "order code 20202"
+      ],
+      "responses": ["Thank you! I am checking the status of your order now."]
+    },
+    {
+      "tag": "pricing",
+      "patterns": [
+        "what is the price", "how much does it cost",
+        "pricing details", "what are your charges",
+        "what is the fee", "price information",
+        "how much do you charge", "can you tell me the cost",
+        "what is your pricing plan", "how much is it",
+        "tell me the price", "what does it cost",
+        "is it expensive", "what are the rates",
+        "how much for this service", "price list",
+        "cost details", "fee structure",
+        "what is the cost", "do you have free plan",
+        "is there a charge", "any hidden fees",
+        "monthly charges", "annual pricing"
+      ],
+      "responses": ["Our pricing varies depending on the selected plan. Would you like details about a specific service?"]
+    },
+    {
+      "tag": "contact_number",
+      "patterns": [
+        "contact number", "phone number", "how can I call you",
+        "support number", "customer care number",
+        "how do I contact support", "give me your number",
+        "what is your phone number", "how to reach you",
+        "support contact", "helpline number",
+        "customer support number", "call support",
+        "i want to call you", "contact details",
+        "how do i get in touch", "reach customer care",
+        "whats your contact", "need your number",
+        "give me helpline", "i need to speak to someone",
+        "talk to agent", "talk to human",
+        "connect me to support", "customer service number"
+      ],
+      "responses": ["You can reach our support team at +91-XXXXXXXXXX. We're happy to help!"]
+    }
+  ]
+}
